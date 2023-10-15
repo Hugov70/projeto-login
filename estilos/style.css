@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: purple;
+}
+
+div#imagem {
+    background-image: url(../imagens/pexels-trace-hudson-2797752.jpg);
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 40px 40px 0px 0px;
+}
+
+div#login {
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 0px 0px 40px 40px;
+}
+
+div#login > h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+div > form > p  {
+    margin: 10px 0px;
+    background-color: purple;
+    padding: -5px;
+    border-radius: 10px;
+}
+
+form i {
+    color: white;
+    margin: 5px 5px 0px 5px;
+    
+}
+
+form input#email, form input#senha {
+    background-color: lightskyblue;
+    padding: 12px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    
+}
+
+form input#entrar {
+    display: block;
+    background-color: darkturquoise;
+    width: 245px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+} 
+
+form input#entrar:hover {
+    background-color: dodgerblue;
+}
+
+div#login > p#esqueci {
+    border: 1px solid darkturquoise;
+    text-align: center;
+    margin: 10px 2px 10px 2px;
+    padding: 5px;
+}
+
+div#login a {
+    color: rgb(20, 92, 165);
+    text-decoration: none;
+}
+
+div#login p#esqueci:hover {
+    background-color: darkturquoise;
+}
+
+i#email {
+    font-size: 1em;
+}
+

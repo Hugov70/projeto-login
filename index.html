@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+</head>
+<body>
+    <div id="imagem">
+        
+    </div>
+    <div id="login">
+        <h1>Login</h1>
+        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        <form action="cadastro.php" method="post">
+            <p>
+                <label for="email"><i class="material-symbols-outlined">Person</i></label>
+                <input type="email" name="email" id="email" size="21" placeholder="seu e-mail">
+            </p>
+            <p>
+                <label for="senha"><i class="material-symbols-outlined">Key</i></label>
+                <input type="password" name="senha" id="senha" size="21" placeholder=" sua senha">
+            </p>
+            <input type="submit" value="Entrar" id="entrar">
+        </form>
+        <p id="esqueci"><a href="">Esqueci a senha <i class="material-symbols-outlined" id="email">email</i></a></p>
+    </div>
+</body>
+</html>

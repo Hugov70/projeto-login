@@ -7,25 +7,33 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+body,html {
     background-color: purple;
+    width: 100vw;
+    height: 100vh;
 }
-
+main {
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
 div#imagem {
     background-image: url(../imagens/pexels-trace-hudson-2797752.jpg);
-    width: 250px;
     height: 250px;
-    padding: 10px;
     margin: auto;
-    margin-top: 50px;
-    border-radius: 40px 40px 0px 0px;
+    border-radius: 25px 25px 0px 0px;
+    
 }
+
 
 div#login {
     background-color: white;
-    width: 250px;
-    height: 350px;
     padding: 10px;
+    padding-bottom: 50px ;
     margin: auto;
     border-radius: 0px 0px 40px 40px;
 }
@@ -34,6 +42,7 @@ div#login > h1 {
     text-align: center;
     font-size: 1.5em;
     margin-bottom: 10px;
+    
 }
 
 div > form > p  {
@@ -43,13 +52,13 @@ div > form > p  {
     border-radius: 10px;
 }
 
-form i {
+div form i {
     color: white;
-    margin: 5px 5px 0px 5px;
+    margin: 0px 0px 0px 5px;
     
 }
 
-form input#email, form input#senha {
+div form input#email, form input#senha {
     background-color: lightskyblue;
     padding: 12px;
     margin-bottom: 2px;
@@ -60,8 +69,8 @@ form input#email, form input#senha {
 form input#entrar {
     display: block;
     background-color: darkturquoise;
-    width: 245px;
-    padding: 5px;
+    width: 230px;
+    padding: 10px;
     margin: auto;
     border-radius: 5px;
 } 
